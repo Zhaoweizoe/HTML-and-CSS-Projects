@@ -1,0 +1,1 @@
+alert("Today is Thursday! I am an alert box!");
