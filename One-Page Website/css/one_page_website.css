@@ -1,0 +1,18 @@
+/*----------------------------
+Step 1 CSS Assignment
+-----------------------*/
+
+html{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+/*----------------------------
+Step 2 CSS Assignment
+-----------------------*/
+.form input[type="text"]{
+    width:30%;
+    margin:10px;
+    border:3px dotted #661616;
+    border-radius:25px;
+}
