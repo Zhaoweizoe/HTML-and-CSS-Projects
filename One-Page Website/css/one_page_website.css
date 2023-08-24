@@ -68,8 +68,8 @@ Step 3 Lightbox Challenge
     max-width: 1200px;
 }
 
-.close_cursor{
-    color:white;
+.close{
+    color:rgb(65, 3, 3);
     position:absolute;
     top:10px;
     right:25px;
@@ -106,7 +106,7 @@ Step 3 Lightbox Challenge
     width:auto;
     padding:16px;
     margin-top:-50px;
-    color:white;
+    color:rgb(34, 1, 1);
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -140,7 +140,7 @@ Step 3 Lightbox Challenge
 /* Caption text */
 .caption-container{
     text-align: center;
-    background-color: black;
+    background-color: rgb(60, 153, 130);
     padding:2px 16px;
     color:white;
 }

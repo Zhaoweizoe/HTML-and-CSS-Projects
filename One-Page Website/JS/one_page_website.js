@@ -43,7 +43,7 @@ function showSlide(n){
     console.log("slides[slideIndex - 1]:", slides[slideIndex - 1]);
     slides[slideIndex-1].style.display="block";
     dots[slideIndex-1].className+=" active";
-    captionText.innerHTML=dots[slideIndex-1].alt;
+    captionText.innerHTML=dots[slideIndex-1].alt;//set up the canption text
 }
 
 

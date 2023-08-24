@@ -15,79 +15,75 @@
        <!-- Images used to open the lightbox -->
 	    <div class="row">
 			<div class="column">
-				<img src="cheese1.jpg" width="200" height="300" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Cheese's photo">
+				<img src="cheese1.jpg" width="220" height="300" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Cheese's photo">
 			</div>
 			<div class="column">
-				<img src="cheese2.jpg" width="200" height="300" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Cheese's photo">
+				<img src="cheese2.jpg" width="220" height="300" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Cheese's photo">
 			</div>
 			<div class="column">
-				<img src="cheese3.jpg" width="200" height="300" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Cheese's photo">
+				<img src="cheese3.jpg" width="220" height="300" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Cheese's photo">
 			</div>
 			<div class="column">
-				<img src="cheese4.jpg" width="200" height="300" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Cheese's photo">
+				<img src="cheese4.jpg" width="220" height="300" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Cheese's photo">
 			</div>
 			
 		</div>
 
 		<!-- The Modal/Lightbox -->
-
+		
 	<div id="myModal" class="modal">
-		<span class="close_cursor" onclick="closeModal()">&times;</span>
+		
 	 <div class="modal-content">
 				
 		 <div class="mySlides">
-			<div class="numbertext">1/5</div>
-			<img src="cheese1_wide.jpg" style="width:100%" alt="can you see?">
+			<div class="numbertext">1/4</div>
+			<img src="cheese1.jpg" width="400" height="500"  alt="can you see?">
 		 </div>
 
 		 <div class="mySlides">
-			<div class="numbertext">2/5</div>
-			<img src="cheese2_wide.jpg"  style="width:100%" alt="can you see?">
+			<div class="numbertext">2/4</div>
+			<img src="cheese2.jpg"  width="400" height="500" alt="can you see?">
 		 </div>
 
 		 <div class="mySlides">
-			<div class="numbertext">3/5</div>
-			<img src="cheese3_wide.jpg"  style="width:100%" alt="can you see?">
+			<div class="numbertext">3/4</div>
+			<img src="cheese3.jpg"  style="width:100%" alt="can you see?">
 		 </div>
 
 		 <div class="mySlides">
-			<div class="numbertext">4/5</div>
-			<img src="cheese4_wide.jpg"  style="width:100%" alt="can you see?">
+			<div class="numbertext">4/4</div>
+			<img src="cheese4.jpg"  style="width:100%" alt="can you see?">
 		 </div>
-
+		 <span class="close" onclick="closeModal()">&times;</span>
+		 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 		
 
 		 <!-- Caption text -->
 
 		  <div class="caption-container">
-			<p id="caption"></p>
+			<p id="caption"></p><!---in JS-->
 		  </div>
 
 		 <!-- Thumbnail image controls -->
 		  <div class="column">
-			<img class="demo" src="cheese1.jpg" width="280" height="400" onclick="currentSlide(1)" alt="Cheese's photo">
+			<img class="demo" src="cheese1.jpg" width="220" height="300" onclick="currentSlide(1)" alt="Cheese's photo">
 		  </div>
 		
 		  <div class="column">
-			<img class="demo" src="cheese2.jpg" width="280" height="400" onclick="currentSlide(2)" alt="Cheese's photo">
+			<img class="demo" src="cheese2.jpg" width="220" height="300" onclick="currentSlide(2)" alt="Cheese's photo">
 		  </div>
 
 		  <div class="column">
-			<img class="demo" src="cheese3.jpg" width="280" height="400" onclick="currentSlide(3)" alt="Cheese's photo">
+			<img class="demo" src="cheese3.jpg" width="220" height="300" onclick="currentSlide(3)" alt="Cheese's photo">
 		  </div>
 
 		  <div class="column">
-			<img class="demo" src="cheese4.jpg" width="280" height="400" onclick="currentSlide(4)" alt="Cheese's photo">
+			<img class="demo" src="cheese4.jpg" width="220" height="300" onclick="currentSlide(4)" alt="Cheese's photo">
 		  </div>
-
-		  
 	   </div>
     </div>
 
-
-
-  
-	 
 	 <!--CONTACT FORM-->
 	  <p>If you want to be my servant,Please provide me with your basic contact information.meow~~</p>
 	  <div class="form">
